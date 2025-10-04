@@ -161,3 +161,134 @@ INSERT INTO
 VALUES (3, 5, 1),
     (3, 7, 1),
     (3, 3, 1);
+
+--Extra inserciones para la vista extra:
+INSERT INTO
+    libros (
+        titulo,
+        isbn,
+        precio,
+        stock,
+        autor_id,
+        editorial_id
+    )
+VALUES (
+        'El Resplandor',
+        'ISBN011',
+        58.00,
+        22,
+        5,
+        3
+    ),
+    (
+        'La Sombra del Viento',
+        'ISBN012',
+        47.00,
+        30,
+        3,
+        2
+    ),
+    (
+        'Los Miserables',
+        'ISBN013',
+        65.00,
+        10,
+        2,
+        1
+    ),
+    (
+        'Don Quijote de la Mancha',
+        'ISBN014',
+        55.00,
+        12,
+        2,
+        1
+    ),
+    (
+        'Cuentos de Eva Luna',
+        'ISBN015',
+        38.00,
+        0,
+        3,
+        3
+    ),
+    (
+        'Harry Potter y el Príncipe Mestizo',
+        'ISBN016',
+        57.00,
+        18,
+        4,
+        2
+    ),
+    (
+        'Harry Potter y el Prisionero de Azkaban',
+        'ISBN017',
+        52.00,
+        8,
+        4,
+        2
+    ),
+    (
+        'Misery',
+        'ISBN018',
+        60.00,
+        5,
+        5,
+        3
+    ),
+    (
+        'El Visitante',
+        'ISBN019',
+        62.00,
+        0,
+        5,
+        3
+    ),
+    (
+        'El Otoño del Patriarca',
+        'ISBN020',
+        45.00,
+        14,
+        1,
+        1
+    ),
+    (
+        'Travesuras de la Niña Mala',
+        'ISBN021',
+        48.00,
+        11,
+        2,
+        1
+    ),
+    (
+        'La Tía Julia y el Escribidor',
+        'ISBN022',
+        44.00,
+        13,
+        2,
+        1
+    ),
+    (
+        'Del Amor y Otros Demonios',
+        'ISBN023',
+        40.00,
+        7,
+        1,
+        1
+    ),
+    (
+        'El Juego del Ángel',
+        'ISBN024',
+        49.00,
+        9,
+        3,
+        2
+    ),
+    (
+        'Doctor Sueño',
+        'ISBN025',
+        59.00,
+        0,
+        5,
+        3
+    );
