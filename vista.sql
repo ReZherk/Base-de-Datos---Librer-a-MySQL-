@@ -11,3 +11,17 @@ GROUP BY
     c.nombre;
 
 SELECT * FROM vista_resumen_ventas;
+
+CREATE VIEW vista_libros_disponibles AS
+SELECT l.libro_id, l.titulo, l.precio, l.stock, a.nombre AS autor, e.nombre AS editorial
+FROM
+    libros l
+    INNER JOIN autores a ON l.autor_id = a.autor_id
+    INNER JOIN editoriales e ON l.editorial_id = e.editorial_id
+WHERE
+    l.stock > 0;
+
+SELECT * FROM vista_libros_disponibles;
+
+--Para borrar la vista extra:
+DROP VIEW IF EXISTS vista_libros_disponibles;
