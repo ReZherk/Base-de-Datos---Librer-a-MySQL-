@@ -162,7 +162,7 @@ VALUES (3, 5, 1),
     (3, 7, 1),
     (3, 3, 1);
 
---Extra inserciones para la vista extra:
+/* Extra inserciones para la vista extra */
 INSERT INTO
     libros (
         titulo,
